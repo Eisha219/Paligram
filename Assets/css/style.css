@@ -104,16 +104,17 @@ section{
 }
 /*----- tobar syling ------ */
 .scroll{
-  overflow: auto;
+  overflow-y: auto;
+  max-height: 100px;
 }
-
+/* bg color of scrollbr track  */
 .scroll::-webkit-scrollbar-track
 {
   -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-  background-color: #F5F5F5;
+  /* background-color: #21421e; */
   border-radius: 20px;
 }
-
+/* width of scrollbr  */
 .scroll::-webkit-scrollbar
 {
   width: 10px;
@@ -122,8 +123,9 @@ section{
 
 .scroll::-webkit-scrollbar-thumb
 {
-  background-color: #21421e;
-  border-radius: 20px;
+  /* color of scrollbar handle */
+  background-color: #21421e;   
+  border-radius: 2px;
 }
 .topbar .search-bar {
     display: flex;
@@ -274,9 +276,9 @@ section{
 } */
 
 .banner-image{
-    background-image: url('../images/Currentevents/events-black.png');
+    background-image: url('../images/Home/Black1.jpg');
     background-repeat: no-repeat;
-    background-size: auto 500px;
+    background-size: auto 520px;
 
    }
 
@@ -289,22 +291,30 @@ section{
     width: auto;
     max-width: 100%;
     height: 500px;
-}
 
-.gradient-overlay {
+}
+.banner-section .carousel-item img {
+  object-fit:contain;
+  transform: scale(4); 
+  filter: brightness(40%)!important;
+}
+.banner-section .carousel-item {
+  height: auto; 
+}
+/* .gradient-overlay {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     background: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.8));
-  }
+  } */
   
 .carousel-caption p{
   position: relative;
    top: 40%;
    translate: transformY(-50%);
-   font-size: 24px;
+   font-size: 28px;
    letter-spacing: 1.5px;
 }
 .carousel-control-prev,.carousel-control-next{
@@ -534,6 +544,11 @@ color: #fff;
 text-transform: capitalize;
 font-weight: 400;
 letter-spacing: 2px;
+transition: letter-spacing 0.3s  ease-in-out;
+}
+
+.left-debunked .categories li a:hover {
+  letter-spacing: 5px;
 }
 .card-img-top{ 
 height: 80px!important;
@@ -567,9 +582,7 @@ box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
 }
 
   
-.jewish .left-debunked{
-  height: 400px!important;
-}
+
 /* .jewish .image-wrapper{ 
   height: 100px!important;
   }

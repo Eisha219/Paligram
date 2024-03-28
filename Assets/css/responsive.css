@@ -48,6 +48,27 @@
   display: flex!important;
   justify-content: center!important;
 }
+.debunked-categories {
+  height: auto !important; 
+  margin-bottom: 20px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.debunked-categories .section-subtitle {
+  margin-top: 0; 
+  margin-bottom: 10px; 
+}
+.debunked-categories .categories li{
+  margin: 15px 0px;
+}
+
+
+
+
+
   }
   @media (max-width: 767.98px) {
     .bg-image {
@@ -67,6 +88,15 @@
   word-spacing: 2px;
   position: relative;
 
+}
+.debunked-categories {
+  height: auto !important; /* Reset the height to auto */
+  margin-bottom: 20px; /* Add margin to separate from other content */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
   }
   @media (max-width: 576px) {

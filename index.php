@@ -6,7 +6,11 @@ include_once 'head.php';
 $a = $b = $c = $d = 'none';
 $a = 'active';
 ?>
+<style>
+  
 
+
+</style>
 <body class="background-img">
 
 <!-------------- Navbar section start------------- -->

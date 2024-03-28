@@ -67,7 +67,7 @@ $a = 'active';
 <div class="container mt-4">
   <div class="row">
     <!-- Left Side Content -->
-    <div class="col-lg-3 debunked-categories left-debunked pt-4">
+    <div class="col-lg-3 debunked-categories left-debunked pt-4 ">
       <h1 class="section-subtitle  ms-4 ">categories</h1>
       <ul class="categories ms-4 mt-3">
         <li> <a href="">Gaza claim</a></li>

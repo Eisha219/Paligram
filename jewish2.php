@@ -30,6 +30,15 @@ $a = 'active';
 .image-green{
     opacity: 0.8!important;
 }
+.left-debunked ul li a{
+
+transition: letter-spacing 0.3s  ease-in-out;
+}
+
+.left-debunked ul li a:hover {
+  letter-spacing: 10px!important;
+  color: #000;
+}
 </style>
 <body class="background-img">
 
@@ -109,7 +118,7 @@ $a = 'active';
     <!-- Right Side Content -->
     <div class="col-lg-8 mx-auto mt-3">
     <div class="row mx-4">
-      <div class="history-bg">
+      <div class="history-bg scroll">
       <div class="text-content">
         <div class="d-flex justify-content-between " >
         <h2 class="text-white">llan Pappe</h2>
