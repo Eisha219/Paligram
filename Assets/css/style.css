@@ -320,7 +320,6 @@ section{
 .carousel-control-prev,.carousel-control-next{
     background-color: transparent!important;
     border: none;
-
 }
 
 .carousel-control-prev .fa-chevron-left,
@@ -330,6 +329,7 @@ section{
     font-size: 24px; 
     background-color:#fff!important;
     padding: 10px;
+
   }
 .visually-hidden {
   display: none;
